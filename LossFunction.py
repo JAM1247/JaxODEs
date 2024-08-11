@@ -11,6 +11,7 @@ a = 3.0
 x0 = 1.0
 t_end = 1.0 
 
+# Jax Doesn't allow these values in the Jit
 deltaT = 0.001
 steps = int(t_end / deltaT)
 
